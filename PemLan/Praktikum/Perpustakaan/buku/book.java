@@ -67,7 +67,7 @@ public String getInformasiBuku(int kode) {
             for (String[] buku : teknologi) {
                 informasi += "Judul\t\t: " + buku[0] + "\n";
                 informasi += "Pengarang\t: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
+                informasi += "Tahun terbit\t: " + buku[2] + "\n\n";
             }
             break;
         case 2:
@@ -76,7 +76,7 @@ public String getInformasiBuku(int kode) {
             for (String[] buku : filsafat) {
                 informasi += "Judul\t\t: " + buku[0] + "\n";
                 informasi += "Pengarang\t: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
+                informasi += "Tahun terbit\t: " + buku[2] + "\n\n";
             }
             break;
         case 3:
@@ -85,7 +85,7 @@ public String getInformasiBuku(int kode) {
             for (String[] buku : sejarah) {
                 informasi += "Judul\t\t: " + buku[0] + "\n";
                 informasi += "Pengarang\t: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
+                informasi += "Tahun terbit\t: " + buku[2] + "\n\n";
             }
             break;
         case 4:
@@ -94,7 +94,7 @@ public String getInformasiBuku(int kode) {
             for (String[] buku : agama) {
                 informasi += "Judul\t\t: " + buku[0] + "\n";
                 informasi += "Pengarang\t: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
+                informasi += "Tahun terbit\t: " + buku[2] + "\n\n";
             }
             break;
         case 5:
@@ -103,7 +103,7 @@ public String getInformasiBuku(int kode) {
             for (String[] buku : psikologi) {
                 informasi += "Judul\t\t: " + buku[0] + "\n";
                 informasi += "Pengarang\t: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
+                informasi += "Tahun terbit\t: " + buku[2] + "\n\n";
             }
             break;
         case 6:
@@ -112,7 +112,7 @@ public String getInformasiBuku(int kode) {
             for (String[] buku : politik) {
                 informasi += "Judul\t\t: " + buku[0] + "\n";
                 informasi += "Pengarang\t: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
+                informasi += "Tahun terbit\t: " + buku[2] + "\n\n";
             }
             break;
         case 7:
@@ -121,7 +121,7 @@ public String getInformasiBuku(int kode) {
             for (String[] buku : fiksi) {
                 informasi += "Judul\t\t: " + buku[0] + "\n";
                 informasi += "Pengarang\t: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
+                informasi += "Tahun terbit\t: " + buku[2] + "\n\n";
             }
             break;
         default:
