@@ -47,17 +47,6 @@ public class Pekerja extends Manusia {
         }
     }
 
-    // public double getBonus() {
-    //     int lamaKerja = LocalDate.now().getYear() - tahunMasuk.getYear();
-    //     if (lamaKerja <= 5) {
-    //         return 0.05 * gaji;
-    //     } else if (lamaKerja <= 10) {
-    //         return 0.10 * gaji;
-    //     } else {
-    //         return 0.15 * gaji;
-    //     }
-    // }
-
     @Override
     public double getPendapatan() {
         return super.getPendapatan() + getGaji() + getBonus() + (20 * jumlahAnak);

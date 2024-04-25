@@ -50,30 +50,6 @@ class MahasiswaFILKOM extends Manusia {
         
         return prodi + ", 20" + angkatan;
     }
-   
-    // public String getStatus() {
-    //     int angkatan = Integer.parseInt(nim.substring(0, 2)) + 2000;
-    //     int prodiDigit = Integer.parseInt(nim.substring(6, 7));
-    //     String prodi = "";
-    //     switch (prodiDigit) {
-    //         case 2:
-    //             prodi = "Teknik Informatika";
-    //             break;
-    //         case 3:
-    //             prodi = "Teknik Komputer";
-    //             break;
-    //         case 4:
-    //             prodi = "Sistem Informasi";
-    //             break;
-    //         case 6:
-    //             prodi = "Pendidikan Teknologi Informasi";
-    //             break;
-    //         case 7:
-    //             prodi = "Teknologi Informasi";
-    //             break;
-    //     }
-    //     return prodi + ", " + angkatan;
-    // }
 
     public double getBeasiswa(){
         if ( ipk >= 3.0 && ipk <= 3.5){
@@ -84,16 +60,6 @@ class MahasiswaFILKOM extends Manusia {
             return 0.0;
         }
     }
-
-    // public double getBeasiswa() {
-    //     if (ipk >= 3.5) {
-    //         return 75.0;
-    //     } else if (ipk >= 3.0) {
-    //         return 50.0;
-    //     } else {
-    //         return 0.0;
-    //     }
-    // }
 
     @Override
     public double getPendapatan() {

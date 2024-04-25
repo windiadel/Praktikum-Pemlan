@@ -20,10 +20,6 @@ class Manusia {
         this.nama = nama;
     }
 
-    // public boolean isJenisKelamin() {
-    //     return jenisKelamin;
-    // }
-
     public void setJenisKelamin(boolean jenisKelamin) {
         this.jenisKelamin = jenisKelamin;
     }
@@ -40,10 +36,6 @@ class Manusia {
         this.nik = nik;
     }
 
-    // public boolean isMenikah() {
-    //     return menikah;
-    // }
-
     public void setMenikah(boolean menikah) {
         this.menikah = menikah;
     }
@@ -51,14 +43,6 @@ class Manusia {
     public Boolean getMenikah(){
         return menikah;
     }
-
-    // public double getTunjangan() {
-    //     if (menikah) {
-    //         return jenisKelamin ? 25.0 : 20.0;
-    //     } else {
-    //         return 15.0;
-    //     }
-    // }
 
     public double getTunjangan(){
         if ( menikah == true && jenisKelamin == true ){
